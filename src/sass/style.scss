@@ -1,0 +1,17 @@
+@use './abstracts/' as *;
+@use 'sass:map';
+@use 'utilities' as *;
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    font-family: $primary-font;
+}
+
+// h1 {
+//     @include mq(large) {color: pink}
+// }
+
